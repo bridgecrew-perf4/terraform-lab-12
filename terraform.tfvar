@@ -1,0 +1,9 @@
+resource_tags = {
+  project     = "terraform-studying-project",
+  environment = "stage",
+  owner       = "cleiton.torres.aws2022@gmail.com"
+}
+
+ec2_instance_type = "t2.micro"
+
+instance_count = 3
