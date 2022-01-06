@@ -1,3 +1,2 @@
 terraform.exe
-.terraform.*
-.terraform
+terraform*
