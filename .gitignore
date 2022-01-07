@@ -1,6 +1,8 @@
 # Local .terraform directories
 **/.terraform/*
 
+*terraform-provider-aws_v3.70.0_x5.exe*
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
@@ -29,3 +31,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+*.terraform.lock.hcl*
