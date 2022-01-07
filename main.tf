@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 # Configure EC2 instances
-resource "aws_instance" "web" {
+resource "aws_instance" "webserver" {
     count = var.instance_count
     ami           = "ami-04505e74c0741db8d"
     instance_type = var.ec2_instance_type
